@@ -32,8 +32,7 @@ class RosterList extends Component {
         }
 
         this.setState({
-            isLoading: true,
-            users: []
+            isLoading: true
         });
 
         promise            
